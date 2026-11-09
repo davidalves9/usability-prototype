@@ -3,7 +3,7 @@
 A password-gated GitHub Pages share of the Jobber project prototype
 for usability sessions with SPs: Desktop → Vision → V2.3 Deliverables' Work
 progress tab (V1 off), with Project Billing → Vision's Billing tab on the same
-page, sharing one work plan (no payment schedule to start, automation in edit,
+page, sharing one work plan (no payment schedule to start, no invoicing automation,
 Search line item picker, Inline line card).
 
 The password changes every day at 07:00 UTC (midnight in Edmonton). A
