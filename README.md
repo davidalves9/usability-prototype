@@ -3,8 +3,9 @@
 A password-gated GitHub Pages share of the Jobber project prototype
 for usability sessions with SPs: Desktop → Vision → V2.3 Deliverables' Work
 progress tab (V1 off), with Project Billing → Vision's Billing tab on the same
-page, sharing one work plan (no payment schedule to start, no invoicing automation,
-Search line item picker, Inline line card).
+page, sharing one work plan (no payment schedule to start, automation in edit,
+Jobber AI's popover set-up, also offered from Edit, Search line item picker,
+Inline line card).
 
 The password changes every day at 07:00 UTC (midnight in Edmonton). A
 scheduled workflow re-encrypts the snapshot under the new day's password and
@@ -27,7 +28,8 @@ and the day from the live page, so it always matches what's deployed.
 
 ## Update the prototype
 
-In `jobber-project-prototype`:
+In `jobber-project-prototype`, on `david/usability-v23-share` (or its
+worktree, `jobber-project-prototype-share`):
 
 ```bash
 npm run build:usability-v23
