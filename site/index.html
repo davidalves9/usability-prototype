@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Prototype</title>
+    <link rel="stylesheet" href="./gate.css" />
+  </head>
+  <body data-day="{{DAY}}" data-expires="{{EXPIRES}}" data-iterations="{{ITERATIONS}}">
+    <main class="shell" id="gate">
+      <form class="card" id="form">
+        <h1>Prototype</h1>
+        <p class="hint">Enter the password you were given for today's session.</p>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="text" autocomplete="off" autocapitalize="characters" spellcheck="false" required />
+        <button type="submit">Enter</button>
+        <p class="error" id="error" role="alert"></p>
+      </form>
+    </main>
+    <iframe class="frame" id="frame" title="Prototype"></iframe>
+    <script type="module" src="./gate.js"></script>
+  </body>
+</html>
