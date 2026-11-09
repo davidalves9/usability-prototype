@@ -1,8 +1,9 @@
 # Usability prototype
 
 A password-gated GitHub Pages share of the Jobber project prototype
-(Desktop → Vision → V2.3 Deliverables, Work progress tab, V1 off) for
-usability sessions with SPs.
+for usability sessions with SPs: Desktop → Vision → V2.3 Deliverables' Work
+progress tab (V1 off), and Project Billing → Vision's Billing tab (FTUX,
+automation in edit, Search line item picker, Inline line card).
 
 The password changes every day at 07:00 UTC (midnight in Edmonton). A
 scheduled workflow re-encrypts the snapshot under the new day's password and
